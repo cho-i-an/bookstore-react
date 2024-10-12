@@ -1,0 +1,83 @@
+/* Titles */
+.cart-page h1 {
+    padding: 30px 0 10px;
+}
+
+.cart-page h3 {
+    padding: 10px 0 30px;
+}
+
+.clear-cart-btn{
+    display: block;
+    width: 120px;
+    margin: 20px auto;
+    border: 1px solid #8d8d8d;
+    padding: 5px 10px;
+    background-color: white;
+    color: #858585FF !important;
+    cursor: pointer;
+    text-align: center;
+}
+
+.clear-cart-btn:hover{
+    background-color: #e5e5e5;
+}
+
+.cart-action-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Buttons */
+.checkout-btn {
+    display: block;
+    margin: 20px auto 30px 12px;
+    height: 45px;
+    border: none;
+    padding: 15px 30px;
+    background-color: var(--primary-button-color);
+    color: white !important;
+    cursor: pointer;
+    text-align: center;
+}
+
+.checkout-btn:hover{
+    background-color: var(--primary-button-hover-color);
+    text-decoration: none;
+}
+
+.continue-btn{
+    display: block;
+    margin: 20px 12px 30px auto;
+    height: 45px;
+    border: 1px solid black;
+    padding: 15px 30px;
+    color: black !important;
+    cursor: pointer;
+    text-align: center;
+}
+
+.continue-btn:hover{
+    background: var(--secondary-button-hover-color);
+    text-decoration: none;
+    color: var(--default-text-color);
+}
+
+.continue-btn-empty-page{
+    display: block;
+    margin: 30px auto 30px;
+    height: 45px;
+    width: 30%;
+    border: 1px solid black;
+    padding: 15px 30px;
+    color: black !important;
+    cursor: pointer;
+    text-align: center;
+}
+
+.continue-btn-empty-page:hover{
+    background: var(--secondary-button-hover-color);
+    text-decoration: none;
+    color: var(--default-text-color);
+}

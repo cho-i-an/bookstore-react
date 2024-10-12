@@ -1,0 +1,61 @@
+body footer {
+    max-width: none !important;
+}
+
+footer {
+    background: var(--secondary-background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.25em;
+}
+
+.social-media-icons-and-copyright{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+}
+
+.links{
+    color: var(--secondary-text-color);
+    padding-left: 1.5rem;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.copyright{
+    color: var(--secondary-text-color);
+}
+
+.social-media-icons-and-copyright{
+    display: flex;
+    justify-content: flex-end; /* 水平方向右对齐 */
+    align-items: flex-end; /* 垂直居中对齐 */
+    flex-direction: column; /* 垂直方向上下排列 */
+}
+
+.social-media-icons {
+    display: flex;
+    color: var(--secondary-text-color);
+}

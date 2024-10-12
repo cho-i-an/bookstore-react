@@ -1,0 +1,31 @@
+.home-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.home-list-item {
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+
+.home-list-item:hover img {
+    opacity: 0.7;
+}
+
+.home-list-item:hover .home-list-caption {
+    font-weight: bold;
+}
+
+.home-list-caption {
+    text-align: center;
+    margin-top: 5px;
+    color: #333;
+    transition: font-weight 0.3s ease-in-out;
+}

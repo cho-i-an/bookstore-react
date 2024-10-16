@@ -2,6 +2,9 @@
 
 This project is a full-stack web application that simulates an online bookstore, covering the entire user journey from browsing books to checkout. It was developed as a multi-part project over a semester, gradually building features for both the frontend and backend.
 
+!(Main-Page)[https://images.plurk.com/3S2Yk5hrFdy5zPkbWMB8Zo.jpg]
+!(Category-Page)[https://images.plurk.com/3tpqZm1dJMsPqQFekf87cQ.jpg]  
+
 ## Table of Contents
 - [Project Structure](#project-structure)
 - [Features](#features)
